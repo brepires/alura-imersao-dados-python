@@ -1,0 +1,78 @@
+
+[     UTC     ] Logs for alura-imersao-dados-python-nhcuh95memnhucmdpjg62c.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[13:13:44] 🖥 Provisioning machine...
+[13:13:44] 🎛 Preparing system...
+[13:13:44] ⛓ Spinning up manager process...
+[13:13:46] 🚀 Starting up repository: 'alura-imersao-dados-python', branch: 'main', main module: 'app.py'
+[13:13:46] 🐙 Cloning repository...
+[13:13:47] 🐙 Cloning into '/mount/src/alura-imersao-dados-python'...
+
+[13:13:47] 🐙 Cloned repository!
+[13:13:47] 🐙 Pulling code changes from Github...
+[13:13:48] 📦 Processing dependencies...
+Check if streamlit is installed
+cat: /mount/admin/install_path: No such file or directory
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.11 environment at /home/adminuser/venv
+Resolved 37 packages in 768ms
+Prepared 37 packages in 2.74s
+Installed 37 packages in 96ms
+ + altair==6.0.0
+ + attrs==25.4.0
+ + blinker==1.9.0
+ + cachetools==6.2.6
+ + certifi==2026.1.4
+ + charset-normalizer==3.4.4
+ + click==8.3.1
+ + gitdb==4.0.12
+ + gitpython==3.1.46
+ + idna==3.11
+ + jinja2==3.1.6
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + markupsafe==3.0.3
+ + narwhals==2.16.0
+ + numpy==2.4.2
+ + packaging[2026-02-02 13:13:52.133514] ==26.0
+ + pandas==2.3.3
+ + pillow==12.1.0
+ + protobuf==6.33.5
+ + pyarrow==23.0.0
+ + pydeck==0.9.1
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + referencing==0.37.0
+ + requests==2.32.5
+ + rpds-py==0.30.0
+ +[2026-02-02 13:13:52.133784]  six==1.17.0
+ + smmap==5.0.2
+ + streamlit==1.53.1
+ + tenacity==9.1.2
+ + toml==0.10.2
+ + tornado==6.5.4
+ + typing-extensions==4.15.0[2026-02-02 13:13:52.134002] 
+ + tzdata==2025.3
+ + urllib3==2.6.3
+ + watchdog==6.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[13:13:53] 📦 Processed dependencies!
+cat: /mount/admin/install_path: No such file or directory
+
+
+
+2026-02-02 13:14:03.086 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/alura-imersao-dados-python/app.py", line 3, in <module>
+    import plotly.express as px
+ModuleNotFoundError: No module named 'plotly'
